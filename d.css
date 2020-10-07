@@ -1,28 +1,12 @@
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  width: 100%;
-}
-h1 {
-  text-align: center;
-  font-size: 100px;
-  margin-bottom: 10px;
-}
-body {
-  background-color: FloralWhite;
-}
-ul {
-  text-align: center;
-  font-size: 26px;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #deb887;
   overflow: hidden;
   margin-top: 0px;
   margin-left: 0px;
+}
+a:link {
+  text-decoration: none;
 }
 
 /* Style the links inside the navigation bar */
@@ -31,8 +15,8 @@ ul {
   color: black;
   text-align: center;
   padding: 16px 16px;
-  text-decoration: none;
   font-size: 16px;
+  font-family: "Fira Code";
 }
 
 /* Change the color of links on hover */
@@ -59,10 +43,11 @@ h1 {
   text-align: center;
   font-size: 100px;
   margin-bottom: 10px;
+  font-family: Poppins;
 }
 body {
   background-color: FloralWhite;
-  font-family: "Cabin";
+  font-family: "Fira Code";
 }
 ul {
   text-align: center;
@@ -70,6 +55,8 @@ ul {
 }
 footer {
   text-align: center;
+  font-family: "Fira Code";
+  font-size: 16px;
   padding: 3px;
   background-color: DarkSalmon;
   color: white;
