@@ -17,3 +17,60 @@ ul {
   text-align: center;
   font-size: 26px;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #deb887;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: floralwhite;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #deb887;
+  color: black;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+body {
+  background-color: FloralWhite;
+  font-family: "Cabin";
+}
+ul {
+  text-align: center;
+  font-size: 26px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
